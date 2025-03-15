@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
 const Index = () => {
     return (
@@ -20,7 +20,7 @@ const Index = () => {
                 >
                     <Image
                         aria-hidden
-                        src="/globe.svg"
+                        src="./globe.svg"
                         alt="Globe icon"
                         width={16}
                         height={16}

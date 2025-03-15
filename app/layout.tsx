@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Toaster } from "@/components/ui/toaster";
-import { UserProvider } from '@/context/userContext.js'
+import { UserProvider } from '@/context/userContext.js';
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -21,7 +20,6 @@ export default function RootLayout({
         <UserProvider>
           {children}
         </UserProvider>
-        <Toaster />
       </body>
     </html>
   );
